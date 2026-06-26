@@ -18,8 +18,8 @@
 ## Sumário de Bugs
 
 **Total de anomalias encontradas: 5**
-- ALTO: 2
-- MÉDIO: 3
+- ALTO: 1
+- MÉDIO: 4
 
 ### Bugs Críticos
 
