@@ -24,16 +24,16 @@
 
 ### Bugs de Severidade Alta
 
-- **[BUG-01] (CRÍTICO) — Falha na regra de negócio: Permite o cadastro de veículos com placas inválidas fora do padrão**
+- **[BUG-01](https://github.com/22403799/Testes-PI/issues/29) (ALTO) — Permite o cadastro de veículos com placas inválidas fora do padrão**
   - **Passos:**
     1. Acessar o formulário de cadastro de veículos dentro do aplicativo.
     2. Localizar o campo destinado à inserção da placa.
     3. Digitar uma cadeia de caracteres totalmente inválida e fora das normas de trânsito (ex: uma sequência longa como `"ABCDEFGHIJKLMNOPQRSTUVWXYZ"`).
     4. Clicar no botão para salvar o cadastro do automóvel.
   - **Esperado:** O aplicativo deve validar o texto inserido adequadas ao formato brasileiro tradicional (AAA-1234) ou Mercosul (ABC1D23), bloqueando dados inconsistentes.
-  - **Encontrado:** O sistema aceita a gravação e armazena o automóvel com a placa inválida, quebrando restrições básicas de integridade de dados e regras do negócio.
+  - **Encontrado:** O sistema aceita a gravação e armazena o carro com a placa inválida.
 
-- **[BUG-02] (ALTO) — Sobreposição de layout: Barra de status do sistema esconde elementos do aplicativo**
+- **[BUG-02](https://github.com/22403799/Testes-PI/issues/30) (ALTO) — Barra de status do sistema esconde elementos do aplicativo**
   - **Passos:**
     1. Iniciar a navegação por qualquer uma das telas principais do aplicativo móvel.
     2. Observar o topo da tela onde se localizam as informações nativas do aparelho (relógio, bateria, rede).
@@ -42,14 +42,14 @@
 
 ### Bugs de Severidade Média
 
-- **[BUG-03] (MÉDIO) — Quebra de contraste em campos de texto com o modo noturno ativo**
+- **[BUG-03](https://github.com/22403799/Testes-PI/issues/31) (MÉDIO) — Quebra de contraste em campos de texto com o modo noturno ativo**
   - **Passos:**
     1. Ativar o "Modo Noturno" do celular.
     2. Abrir o aplicativo e apertar em qualquer tela contendo inputs de texto (como login).
   - **Esperado:** As cores das fontes e dos fundos dos inputs devem inverter harmonicamente de forma a manter uma legibilidade confortável.
   - **Encontrado:** Ocorre uma quebra de contraste nos campos de texto. O fundo ou a cor da tipografia impossibilitam a visualização correta do que está escrito enquanto o aparelho está sob o esquema de cores escuro.
 
-- **[BUG-04] (MÉDIO) — Falha na exibição de dados: Card de depoimento exibe rótulo genérico "usuário" em vez do nome real**
+- **[BUG-04](https://github.com/22403799/Testes-PI/issues/32) (MÉDIO) — Card de Depoimento exibe nome genérico "Usuário" em vez do nome real**
   - **Passos:**
     1. Acessar a seção correspondente e redigir um novo depoimento.
     2. Enviar o texto e visualizar a atualização da listagem pública de depoimentos.
@@ -58,7 +58,7 @@
 
 ### Bugs de Severidade Baixa
 
-- **[BUG-05] (BAIXA) — Recurso inacessível: Funcionalidade de anexar fotos e vídeos indisponível no aplicativo**
+- **[BUG-05](https://github.com/22403799/Testes-PI/issues/33) (BAIXA) — Funcionalidade de anexar fotos e vídeos ao Depoimento indisponível**
   - **Passos:**
     1. Navegar até o fluxo que necessita da inserção de evidências ou mídias.
     2. Clicar no ícone ou botão de upload para anexar uma foto ou vídeo da galeria.
