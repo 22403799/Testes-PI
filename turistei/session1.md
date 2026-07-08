@@ -23,7 +23,7 @@
 
 ### Bugs Bloqueantes
 
-- **[BUG-01] (BLOQUEANTE) — Crash na inicialização do Aplicativo Móvel**
+- **[BUG-01](https://github.com/22403799/Testes-PI/issues/27) (BLOQUEANTE) — Crash na inicialização do Aplicativo Móvel**
   - **Passos:**
     1. Efetuar o download e instalação do aplicativo através do link do Google Play Console.
     2. Tentar abrir o aplicativo.
@@ -32,7 +32,7 @@
   - **Esperado:** O aplicativo abrir corretamente.
   - **Encontrado:** O aplicativo sofre um crash imediato após a tentativa de abertura.
 
-- **[BUG-02] (BLOQUEANTE) — URL inacessível na Aplicação Web**
+- **[BUG-02](https://github.com/22403799/Testes-PI/issues/28) (BLOQUEANTE) — URL inacessível na Aplicação Web**
   - **Passos:**
     1. Num navegador web, digitar e tentar acessar a URL pública homologada do projeto: `https://sticker-ant-walking-variable.trycloudflare.com/`
     2. Ver mensagem de erro: “Não é possível acessar esse site. Verifique se há um erro de digitação em sticker-ant-walking-variable.trycloudflare.com. DNS_PROBE_FINISHED_NXDOMAIN”*
