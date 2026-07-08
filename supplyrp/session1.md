@@ -24,7 +24,7 @@
 
 ### Bugs Críticos
 
-- **[BUG-01] (CRÍTICO) — Erro 500 (Internal Server Error) ao criar ativo com valor de aquisição massivo**
+- **[BUG-01](https://github.com/22403799/Testes-PI/issues/22) (CRÍTICO) — Erro 500 (Internal Server Error) ao criar ativo com valor de aquisição massivo**
   - **Passos:**
     1. Acessar a tela de "Criação de ativos patrimoniais".
     2. Preencher os dados obrigatórios do ativo.
@@ -35,14 +35,14 @@
 
 ### Bugs de Severidade Alta
 
-- **[BUG-02] (ALTO) — Mensagem genérica inadequada ao registrar produto com código duplicado**
+- **[BUG-02](https://github.com/22403799/Testes-PI/issues/23) (ALTO) — Mensagem genérica inadequada ao registrar produto com código duplicado**
   - **Passos:**
     1. Acessar a tela de "Gerenciamento de Produtos".
     2. Tentar cadastrar um produto utilizando um código identificador que já exista no sistema.
   - **Esperado:** O sistema deve validar a duplicidade do código e exibir uma mensagem clara e específica (ex: "Este código de produto já está cadastrado").
   - **Encontrado:** O sistema exibe o alerta genérico: *“Ocorreu um erro inesperado. Por favor, tente novamente mais tarde.”*.
 
-- **[BUG-03] (ALTO) — Quebra de integridade de dados: Permite salvar Setores com o mesmo nome**
+- **[BUG-03](https://github.com/22403799/Testes-PI/issues/24) (ALTO) — Quebra de integridade de dados: Permite salvar Setores com o mesmo nome**
   - **Passos:**
     1. Acessar a tela de "Criação de setores".
     2. Criar um setor com o nome "Almoxarifado".
@@ -52,14 +52,14 @@
 
 ### Bugs de Severidade Média
 
-- **[BUG-04] (MÉDIO) — Botão de “Esqueci a Senha” inoperante na tela de login**
+- **[BUG-04](https://github.com/22403799/Testes-PI/issues/25) (MÉDIO) — Botão de “Esqueci a Senha” inoperante na tela de login**
   - **Passos:**
     1. Acessar a tela inicial de Login.
     2. Clicar sobre o botão "Esqueci a Senha".
   - **Esperado:** O sistema deve iniciar o fluxo de recuperação de acesso.
   - **Encontrado:** O botão não possui qualquer funcionalidade associada, comportando-se como um elemento estático na interface.
 
-- **[BUG-05] (MÉDIO) — Links de “Termos de Uso” e “Política de Privacidade” quebrados**
+- **[BUG-05](https://github.com/22403799/Testes-PI/issues/26) (MÉDIO) — Links de “Termos de Uso” e “Política de Privacidade” quebrados**
   - **Passos:**
     1. Navegar até o rodapé da página de cadastro.
     2. Clicar nos links direcionados para os "Termos de Uso" ou "Política de Privacidade".
