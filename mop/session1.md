@@ -25,7 +25,7 @@
 
 ### Bugs Críticos
 
-* **[BUG-01] (CRÍTICO) — Login permitido sem criar conta**
+* **[BUG-01](https://github.com/22403799/Testes-PI/issues/14) (CRÍTICO) — Login permitido sem criar conta**
   * **Passos:**
     1. Acessar a tela inicial.
     2. Deixar os campos de e-mail e senha vazios.
@@ -34,7 +34,7 @@
   * **Encontrado:** O sistema permite ignorar as credenciais e efetua o login direto na aplicação sem validar ou exigir a conta.
 
 
-* **[BUG-02] (CRÍTICO) — Sistema aceita senhas inválidas**
+* **[BUG-02](https://github.com/22403799/Testes-PI/issues/15) (CRÍTICO) — Sistema aceita senhas inválidas**
   * **Passos:**
     1. Acessar a aba "Criar login" na tela de autenticação.
     2. Digitar senhas completamente diferentes nos dois campos obrigatórios de definição de senha.
@@ -43,7 +43,7 @@
   * **Encontrado:** A conta é registrada com sucesso, aceitando senhas divergentes e gerando uma inconsistência de segurança.
 
 
-* **[BUG-03] (CRÍTICO) — Cadastro de e-mails em formato inválido ou corrompido**
+* **[BUG-03](https://github.com/22403799/Testes-PI/issues/16) (CRÍTICO) — Cadastro de e-mails em formato inválido ou corrompido**
   * **Passos:**
     1. Acessar a aba "Criar login".
     2. Inserir uma sequência de texto qualquer que não siga o padrão de e-mail (ex: "teste@teste").
@@ -55,13 +55,13 @@
 
 ### Bugs de Severidade Alta
 
-* **[BUG-04] (ALTO) — Impossível realizar Logout**
+* **[BUG-04](https://github.com/22403799/Testes-PI/issues/17) (ALTO) — Impossível realizar Logout**
   * **Passos:**
     1. Estar logado no site.
   * **Esperado:** Conseguir realizar logout.
   * **Encontrado:** Não existe botão de logout.
 
-* **[BUG-05] (ALTO) — Falha de acessibilidade por quebra de contraste**
+* **[BUG-05](https://github.com/22403799/Testes-PI/issues/18) (ALTO) — Falha de acessibilidade por quebra de contraste**
   * **Passos:**
     1. Navegar pelo dashboard de gráficos.
   * **Esperado:** Os textos serem visíveis com boa legibilidade.
@@ -71,21 +71,21 @@
 
 ### Bugs de Severidade Média
 
-* **[BUG-06] (MÉDIO) — Botão de recuperação de conta (Esqueci Senha) não funcional**
+* **[BUG-06](https://github.com/22403799/Testes-PI/issues/19) (MÉDIO) — Botão de recuperação de conta (Esqueci Senha) não funcional**
   * **Passos:**
     1. Na tela de entrada, clicar no botão "Forgot Password".
   * **Esperado:** Direcionamento automático para o fluxo ou tela de recuperação de e-mail/senha.
   * **Encontrado:** O botão não engaja nenhuma ação ou alteração na tela (sem funcionalidade associada).
 
 
-* **[BUG-07] (MÉDIO) — Impossível filtrar dados**
+* **[BUG-07](https://github.com/22403799/Testes-PI/issues/20) (MÉDIO) — Impossível filtrar dados**
   * **Passos:**
     1. Acessar o feed de notícias.
   * **Esperado:** O painel se ajustar e exibir estritamente as menções que correspondam à filtragem.
   * **Encontrado:** Impossível aplicar filtros.
 
 
-* **[BUG-08] (MÉDIO) — Impossível Exportar de Relatórios**
+* **[BUG-08](https://github.com/22403799/Testes-PI/issues/21) (MÉDIO) — Impossível Exportar de Relatórios**
   * **Passos:**
     1. Ir até a tela inicial e ver os gráficos.
   * **Esperado:** Conseguir fazer o download imediato do arquivo analítico estruturado.
